@@ -1,0 +1,31 @@
+
+.grid{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 3em;
+    justify-content: center;
+}
+
+.tabela{
+    text-align: justify;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 2em;
+    border-color: #C6546C;
+}
+
+img{
+    width: 80px;
+    margin: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
