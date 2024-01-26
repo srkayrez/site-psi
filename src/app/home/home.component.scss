@@ -4,6 +4,16 @@ body{
     background-color: #F5E8ED;
 }
 
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 0.5em;
+    font-family: "Montserrat", sans-serif;
+    color: #D14F6B;
+}
+
+
 p{
     font-family: "Montserrat", sans-serif;
     font-weight: 200;
@@ -18,7 +28,6 @@ p{
     width: 50%; 
     margin: auto;
     display: block;
-    margin-bottom: 2em;
 }
 
 .cabecalho{

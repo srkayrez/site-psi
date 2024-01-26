@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { ContatoComponent } from './contato/contato.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { ServicosComponent } from './servicos/servicos.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { ServicosComponent } from './servicos/servicos.component';
       ContatoComponent,
       CabecalhoComponent,
       ServicosComponent,
+      FooterComponent,
    ],
   imports: [
     BrowserModule,
