@@ -1,0 +1,31 @@
+h1{
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 1em;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 2em;
+}
+
+img{
+    width: 40%;
+    margin: 0em 2em;
+}
+
+p{
+    margin: 0em 2em;
+    text-align: justify;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}

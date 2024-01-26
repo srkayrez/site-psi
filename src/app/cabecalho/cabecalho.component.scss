@@ -1,0 +1,40 @@
+body{
+    background-color: #F9EDF1;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    letter-spacing: 2px;
+    line-height: 1em;
+    margin:0% 24%;
+}
+
+.logo{
+    width: 50%; 
+    margin: auto;
+    display: block;
+    margin-bottom: 2em;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F4DAE0;
+}
+
+.menu{
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    background-color: #F4DAE0;
+    padding: 0.5em 1.5em;
+    border-style: none;
+    color:#C6546C;
+}
+
+.menu:hover{
+    background-color: #EEC2CD;
+}

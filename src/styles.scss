@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #F9EDF1;}
+
+
+a{
+    text-decoration: none;
+    color:#C6546C
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    letter-spacing: 2px;
+    line-height: 1em;
+    margin:0% 24%;
+}
+
+.logo{
+    width: 50%; 
+    margin: auto;
+    display: block;
+    margin-bottom: 2em;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F5E8ED;
+}
+
+.menu{
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    background-color: #F5E8ED;
+    padding: 0.3em 1.5em;
+    // font-size: 28px;
+    border-style: none;
+    color:#C6546C;
+}
+
+.menu:hover{
+    background-color: #EEC2CD;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+}
