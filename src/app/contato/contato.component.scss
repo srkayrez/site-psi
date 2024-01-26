@@ -1,0 +1,52 @@
+body{
+    background-color: #F4DAE0;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 0.5em;
+    font-family: "Montserrat", sans-serif;
+    color: #D14F6B;
+}
+
+p{
+    // margin-left:0.5em;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.texto{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.total{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.logo{
+    width: 20px;
+}
+
+.conteudo{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    justify-content: center;
+}
+
+.cards{
+    text-align: center;
+}
+
+.imagem{
+    width: 17em;
+}

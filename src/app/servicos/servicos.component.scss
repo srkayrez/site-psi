@@ -1,3 +1,25 @@
+h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 0.5em;
+    font-family: "Montserrat", sans-serif;
+    color: #D14F6B;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    color: #D14F6B;
+    text-align: center;
+}
+img{
+    width: 80px;
+    margin: auto;
+    display: block;
+    margin-bottom: 1em;
+}
 
 .grid{
     margin-top: 2em;
@@ -16,16 +38,26 @@
     border-color: #C6546C;
 }
 
-img{
-    width: 80px;
-    margin: auto;
-    display: block;
-    margin-bottom: 1em;
+.botao{
+    display: flex;
+    justify-content: center;
+    border: 2px;
+    padding: 2em;
 }
 
-h1{
+.agendar{
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 0.5em;
+    border-color: #C6546C;
+    width: 30%;
     text-align: center;
+    color: #C6546C;
 }
 
-
-
+.agendar:hover{
+    background-color: #C6546C;
+    color:#F9EDF1;
+    border-color: #F9EDF1;
+}
