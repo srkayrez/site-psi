@@ -1,14 +1,17 @@
 .total{
     background-color: #F4DAE0;
-    padding: 1em 10em ;
+    padding: 1em 0em ;
     position: fixed;
     width: 100vw;
     bottom: 0;
     display: grid;
-    grid-template-columns: 50% 50%;
-    // gap: 2em;
+    grid-template-columns: 25% 25%;
+    justify-content: center;
 }
 
+.logo{
+    width: 20px;
+}
 
 
 p{
@@ -19,4 +22,12 @@ p{
 
 tr{
     gap:0px
+}
+
+td{
+    height: 0;
+}
+table{
+    gap:0;
+    text-align: center;
 }
