@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-
+ 
+  openWhats():void{
+    window.open('https://wa.me/+5534991564730')
+  }
+  
 }

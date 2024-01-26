@@ -5,31 +5,41 @@
     <div class="total">  
 
         <div class="cards">
-            <i class="fa-solid fa-phone fa-4x" style="color: #D14F6B;"></i>
-            <p class="texto">Telefone</p>
+            <a (click)="openTell()">
+                <i class="fa-solid fa-phone fa-4x" style="color: #D14F6B;"></i>
+                <p class="texto">Telefone</p>
+            </a>
         </div>            
 
         <div class="cards">
-            <i class="fa-brands fa-whatsapp fa-4x" style="color: #D14F6B;"></i>
-            <p class="texto">WhatsApp</p>
+            <a (click)="openWhats()">
+                <i class="fa-brands fa-whatsapp fa-4x" style="color: #D14F6B;"></i>
+                <p class="texto">WhatsApp</p>
+            </a>
         </div>
 
         <div class="cards">
-            <i class="fa-brands fa-instagram fa-4x" style="color: #D14F6B;"></i>
-            <p class="texto">Instagram</p>
+            <a (click)="openInsta()">
+                <i class="fa-brands fa-instagram fa-4x" style="color: #D14F6B;"></i>
+                <p class="texto">Instagram</p>
+            </a>
         </div>
                
         <div class="cards">
-            <i class="fa-regular fa-envelope fa-4x" style="color: #D14F6B;"></i>
-            <p class="texto">E-mail</p>
+            <a (click)="openEmail()">
+                <i class="fa-regular fa-envelope fa-4x" style="color: #D14F6B;"></i>
+                <p class="texto">E-mail</p>
+            </a>
         </div>
             
         <div class="cards">
-            <i class="fa-brands fa-linkedin fa-4x" style="color: #D14F6B;"></i>
-            <p class="texto">Linkedin</p>
+            <a (click)="openLinkedin()">
+                <i class="fa-brands fa-linkedin fa-4x" style="color: #D14F6B;"></i>
+                <p class="texto">Linkedin</p>
+            </a>
         </div>
 
-        <div class="cards">
+        <div class="cards" routerLink="">
             <img class="imagem" src="../../assets/Logo - Carolina Franco - Psicóloga 2.jpg" alt="">
         </div>
         
